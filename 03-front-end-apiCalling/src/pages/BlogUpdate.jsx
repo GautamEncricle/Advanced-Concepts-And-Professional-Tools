@@ -14,7 +14,7 @@ function BlogUpdate() {
     useEffect(() => {
         if (blog) {
             setForm({
-                title: blog.blog.title,
+                title: blog.blog.title, 
                 description: blog.blog.description,
             });
         }
