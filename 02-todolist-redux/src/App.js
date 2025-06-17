@@ -5,8 +5,8 @@ import ProductList from './components/ProductList'
 function App() {
   return (
     <>
-      {/* <TodoApp /> */}
-      <ProductList />
+      <TodoApp />
+      {/* <ProductList /> */}
     </>
   )
 }
