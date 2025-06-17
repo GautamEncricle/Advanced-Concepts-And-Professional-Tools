@@ -7,7 +7,6 @@ import PrivateRoute from './routes/PrivateRoute';
 import { AuthProvider } from './context/AuthContext';
 import './App.css';
 
-const ProductsLists = lazy(() => import('./pages/ProductsLists'));
 const ProductDetails = lazy(() => import('./pages/ProductDetails'));
 
 const App = () => {
@@ -18,7 +17,6 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/products" element={<ProductsLists />} />
             <Route
               path="/product/:id"
               element={
