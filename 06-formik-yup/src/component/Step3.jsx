@@ -1,4 +1,3 @@
-// src/components/Step3.jsx
 import { useFormikContext } from 'formik';
 
 export default function Step3() {

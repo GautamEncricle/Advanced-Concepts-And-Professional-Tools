@@ -1,4 +1,3 @@
-// src/components/Step2.jsx
 import { useField } from 'formik';
 
 const TextField = ({ label, ...props }) => {
